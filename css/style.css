@@ -43,6 +43,11 @@ hrsolid {
   border-top: 1px solid #a1a1a1;
 }
 
+.logo_small {
+  width: 50%;
+  height: auto;
+}
+
 @font-face {
   font-family: 'Bangers';
   src: url(../assets/fonts/Bangers.ttf);
