@@ -2,6 +2,11 @@
   padding: 60px 50px;
 }
 
+@mixin imgSize {
+  max-width: auto;
+  max-height: 400px;
+}
+
 $estilo:(
   centro: center,
   escala: scale(1.2)
@@ -53,4 +58,12 @@ hr {
 .logo_small {
   width: 40%;
   height: auto;
+}
+
+.titleServ {
+  text-align: map-get($estilo, centro);
+}
+
+.ajusteImg {
+  @include imgSize;
 }

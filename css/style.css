@@ -48,6 +48,15 @@ hrsolid {
   height: auto;
 }
 
+.titleServ {
+  text-align: center;
+}
+
+.ajusteImg {
+  max-width: auto;
+  max-height: 400px;
+}
+
 @font-face {
   font-family: 'Bangers';
   src: url(../assets/fonts/Bangers.ttf);
